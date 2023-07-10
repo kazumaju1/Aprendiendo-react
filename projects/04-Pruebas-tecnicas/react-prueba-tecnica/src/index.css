@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 880px;
+}
+.seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.seccion img {
+    max-width: 320px;
+    height: auto;
+}
